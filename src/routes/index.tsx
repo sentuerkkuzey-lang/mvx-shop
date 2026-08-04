@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import { MvxAcademyLogo } from "@/components/MvxAcademyLogo";
+import { MvxEsportsLogo } from "@/components/MvxEsportsLogo";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -18,7 +18,7 @@ function ShopIndexPage() {
     <section className="container-xl pt-24 pb-32 md:pt-36 md:pb-40 text-center">
       <Reveal>
         <div className="flex justify-center">
-          <MvxAcademyLogo className="h-24 w-24 md:h-32 md:w-32 rounded-full shadow-[0_30px_120px_-30px_rgba(255,255,255,0.25)]" />
+          <MvxEsportsLogo className="h-20 w-20 md:h-24 md:w-24 rounded-full shadow-[0_30px_120px_-30px_rgba(255,255,255,0.25)]" />
         </div>
       </Reveal>
 
